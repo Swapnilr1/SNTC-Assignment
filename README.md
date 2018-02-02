@@ -1,2 +1,2 @@
-# SNTC-Assignment
-My repository for IIT Mandi SNTC server selection assignment
+# SNTC-Test
+My repository for IIT Mandi SNTC server selection test
