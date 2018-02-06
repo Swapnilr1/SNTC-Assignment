@@ -25,3 +25,5 @@ Note that `v2` and `v3` are minor non-technical corrections from `v1` of my Dock
 2. Docker syntax - Building, running and uploading Docker images to Docker Store.
 3. How containers are different from virtual machines, advantages.
 4. A bit about bash/shell scripts.
+
+Finally I tested my Docker image to see how it would work on other computers with [Docker Playground](https://www.katacoda.com/courses/docker/playground).
