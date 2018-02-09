@@ -83,7 +83,7 @@ Open ports for `14.139.34.7`
 9. 10000/tcp open     snet-sensor-mgmt
 10. 20000/tcp open     dnp
 
-
+This file would be too long if I include port information for every PC on the network.
 
 ## Domain Provider for IIT Mandi
 
