@@ -12,6 +12,7 @@ You will need to install a certificate in order to go to the above IP address vi
 security warning which you need to ignore and continue to the webpage. The certificate is embedded in the HTML page whose link is given below. There is a hyperlink in the HTML page from where you can install the certificate.
 
 These credentials as well as steps to install the certificate and the embedded certificate is contained in [streisand.html](streisand.html)
+(open the page in "Raw" View and save the page using the browser as an HTML file, then open the HTML page)
 
 Once you have accessed https://13.127.167.195/ the ways of connecting to the VPN along with instructions for every platform are shown. 
 
