@@ -7,11 +7,11 @@ I do not know of a way to securely store as well as update the passwords in a SI
 
 Let us say web application X (most probably a password manager) is responsible for updating the passwords.
 
-I would then encrypt the contents of this archive/directory using a public key, which would generate an encryption (public) and another one for decryption (private). I would provide the public key to application X, so that it can encrypt any new password being added. 
+I would then encrypt the contents of this archive/directory using a public key, which would generate an encryption (public) key and a decryption (private) key. I would upload the public key to application X, so that it can encrypt any new password being added. 
 
-When I need to look at the passwords, I enter my passphrase (which acts as a "master password") to access the private key. 
+When I need to look at the passwords, I enter my passphrase (which acts as a "master password") to access the private key.  
 
-So in essence, new passwords get automatically encrypted (preferably on a Web application) before being added to the PC's hard disk. 
+So in essence, new passwords get automatically encrypted (preferably on a Web application) before being added to the PC's hard disk. New encrypted passwords can get added, but nobody can decrypt any password without the private key.
 
 Cons:
 
