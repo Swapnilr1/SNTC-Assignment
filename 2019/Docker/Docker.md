@@ -1,0 +1,3 @@
+I had already done the Docker task last year, so I was familiar with basics of Docker i.e. what is an image, container, uploading images to Docker Hub etc.
+
+Other than that the tutorial at https://medium.com/@vi1996ash/steps-to-build-apache-web-server-docker-image-1a2f21504a8e helped me to understand how to copy the required file and start the server. Then I modified the instructions for Ubuntu and dealt with the proxy.

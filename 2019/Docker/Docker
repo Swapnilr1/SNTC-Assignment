@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+RUN export http_proxy="http://10.7.0.1:8080" && export https_proxy="http://10.7.0.1:8080" && apt-get update && apt-get -y install apache2 && apt-get -y install curl
+COPY index.html /var/www/html/
+
+ENTRYPOINT [ "sh", "-c", " /etc/init.d/apache2 start && curl http://localhost" ]
